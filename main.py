@@ -1,5 +1,4 @@
 import asyncio
-import os
 import random
 import ssl
 import json
@@ -7,8 +6,6 @@ import time
 import uuid
 import requests
 import shutil
-from keep_alive import keep_alive
-keep_alive()
 from loguru import logger
 from websockets_proxy import Proxy, proxy_connect
 from fake_useragent import UserAgent
